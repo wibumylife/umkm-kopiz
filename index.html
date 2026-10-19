@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="UMKM Kopi Nusantara - Kopi robusta & arabika pilihan dari petani lokal Indonesia." />
+  <title>Kopi Nusantara | UMKM Lokal Berkualitas</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-success" href="#home">
+        <i class="bi bi-cup-hot-fill me-1"></i> Kopi Nusantara
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-success rounded-pill px-3" href="https://wa.me/6281234567890" target="_blank">
+              <i class="bi bi-whatsapp"></i> Pesan
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start">
+          <span class="badge bg-warning text-dark mb-3 px-3 py-2">☕ 100% Kopi Lokal</span>
+          <h1 class="display-4 fw-bold mb-3">Cita Rasa Kopi <span class="text-success">Nusantara</span></h1>
+          <p class="lead text-muted mb-4">
+            Nikmati kopi robusta & arabika pilihan langsung dari petani lokal. 
+            Dipanggang fresh setiap minggu untuk kualitas terbaik.
+          </p>
+          <div class="d-flex gap-2 justify-content-center justify-content-lg-start flex-wrap">
+            <a href="#produk" class="btn btn-success btn-lg rounded-pill px-4">
+              <i class="bi bi-bag-check"></i> Lihat Produk
+            </a>
+            <a href="#tentang" class="btn btn-outline-success btn-lg rounded-pill px-4">
+              Selengkapnya
+            </a>
+          </div>
+          <div class="row mt-5 text-center text-lg-start">
+            <div class="col-4">
+              <h3 class="fw-bold text-success mb-0">5+</h3>
+              <small class="text-muted">Tahun Berdiri</small>
+            </div>
+            <div class="col-4">
+              <h3 class="fw-bold text-success mb-0">10K+</h3>
+              <small class="text-muted">Pelanggan</small>
+            </div>
+            <div class="col-4">
+              <h3 class="fw-bold text-success mb-0">15</h3>
+              <small class="text-muted">Varian Kopi</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center mt-5 mt-lg-0">
+          <img src="assets/img/hero.jpg" alt="Kopi Nusantara" class="img-fluid hero-img rounded-4 shadow-lg"
+               onerror="this.src='https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG ===== -->
+  <section id="tentang" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <img src="assets/img/about.jpg" alt="Tentang Kami" class="img-fluid rounded-4 shadow"
+               onerror="this.src='https://images.unsplash.com/photo-1521302080334-4bebac2763a6?w=600'">
+        </div>
+        <div class="col-lg-6">
+          <span class="text-success fw-bold">TENTANG KAMI</span>
+          <h2 class="fw-bold mb-3">Cerita di Balik Secangkir Kopi</h2>
+          <p class="text-muted">
+            Kopi Nusantara berdiri sejak 2019 dengan misi memberdayakan petani kopi lokal 
+            di seluruh Indonesia. Kami bekerja sama langsung dengan petani untuk menghasilkan 
+            biji kopi berkualitas tinggi dengan harga yang adil.
+          </p>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Biji kopi pilihan dari petani lokal</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Proses roasting tradisional & modern</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Kemasan ramah lingkungan</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Pengiriman ke seluruh Indonesia</li>
+          </ul>
+          <a href="#kontak" class="btn btn-success rounded-pill px-4 mt-2">Hubungi Kami</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUK ===== -->
+  <section id="produk" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="text-success fw-bold">PRODUK KAMI</span>
+        <h2 class="fw-bold">Varian Kopi Terbaik</h2>
+        <p class="text-muted">Pilih kopi favoritmu dari berbagai varian pilihan</p>
+      </div>
+      <div class="row g-4">
+        <!-- Produk 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="assets/img/produk1.jpg" class="card-img-top" alt="Kopi Robusta"
+                 onerror="this.src='https://images.unsplash.com/photo-1559525839-b184a4d698c7?w=400'">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Kopi Robusta</h5>
+              <p class="card-text text-muted small">Rasa kuat & pahit mantap, cocok untuk pecinta kopi sejati.</p>
+              <h6 class="text-success fw-bold">Rp 45.000</h6>
+              <a href="https://wa.me/6281234567890?text=Pesan%20Kopi%20Robusta" class="btn btn-success btn-sm rounded-pill w-100 mt-2">
+                Pesan Sekarang
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Produk 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="assets/img/produk2.jpg" class="card-img-top" alt="Kopi Arabika"
+                 onerror="this.src='https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400'">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Kopi Arabika</h5>
+              <p class="card-text text-muted small">Aroma harum & rasa lembut dengan sentuhan asam manis.</p>
+              <h6 class="text-success fw-bold">Rp 65.000</h6>
+              <a href="https://wa.me/6281234567890?text=Pesan%20Kopi%20Arabika" class="btn btn-success btn-sm rounded-pill w-100 mt-2">
+                Pesan Sekarang
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Produk 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="assets/img/produk3.jpg" class="card-img-top" alt="Kopi Luwak"
+                 onerror="this.src='https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400'">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Kopi Luwak</h5>
+              <p class="card-text text-muted small">Kopi premium dengan cita rasa eksotis & mewah.</p>
+              <h6 class="text-success fw-bold">Rp 150.000</h6>
+              <a href="https://wa.me/6281234567890?text=Pesan%20Kopi%20Luwak" class="btn btn-success btn-sm rounded-pill w-100 mt-2">
+                Pesan Sekarang
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Produk 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="assets/img/produk4.jpg" class="card-img-top" alt="Cold Brew"
+                 onerror="this.src='https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=400'">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Cold Brew</h5>
+              <p class="card-text text-muted small">Kopi dingin segar dengan rasa halus dan ringan.</p>
+              <h6 class="text-success fw-bold">Rp 35.000</h6>
+              <a href="https://wa.me/6281234567890?text=Pesan%20Cold%20Brew" class="btn btn-success btn-sm rounded-pill w-100 mt-2">
+                Pesan Sekarang
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERI ===== -->
+  <section id="galeri" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="text-success fw-bold">GALERI</span>
+        <h2 class="fw-bold">Momen Bersama Kami</h2>
+      </div>
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <img src="assets/img/produk1.jpg" class="img-fluid rounded-3 galeri-img w-100"
+               onerror="this.src='https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=400'">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="assets/img/produk2.jpg" class="img-fluid rounded-3 galeri-img w-100"
+               onerror="this.src='https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=400'">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="assets/img/produk3.jpg" class="img-fluid rounded-3 galeri-img w-100"
+               onerror="this.src='https://images.unsplash.com/photo-1524350876685-274059332603?w=400'">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="assets/img/produk4.jpg" class="img-fluid rounded-3 galeri-img w-100"
+               onerror="this.src='https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section id="kontak" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="text-success fw-bold">KONTAK</span>
+        <h2 class="fw-bold">Hubungi Kami</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <div class="contact-info p-4 rounded-4 bg-light h-100">
+            <h5 class="fw-bold mb-4">Informasi Kontak</h5>
+            <div class="d-flex mb-3">
+              <i class="bi bi-geo-alt-fill text-success fs-4 me-3"></i>
+              <div>
+                <strong>Alamat</strong>
+                <p class="text-muted mb-0 small">Jl. Merdeka No. 123, Jakarta Pusat, DKI Jakarta 10110</p>
+              </div>
+            </div>
+            <div class="d-flex mb-3">
+              <i class="bi bi-telephone-fill text-success fs-4 me-3"></i>
+              <div>
+                <strong>Telepon / WA</strong>
+                <p class="text-muted mb-0 small">+62 812-3456-7890</p>
+              </div>
+            </div>
+            <div class="d-flex mb-3">
+              <i class="bi bi-envelope-fill text-success fs-4 me-3"></i>
+              <div>
+                <strong>Email</strong>
+                <p class="text-muted mb-0 small">info@kopinusantara.id</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <i class="bi bi-clock-fill text-success fs-4 me-3"></i>
+              <div>
+                <strong>Jam Operasional</strong>
+                <p class="text-muted mb-0 small">Senin - Sabtu: 08.00 - 21.00 WIB</p>
+              </div>
+            </div>
+            <hr>
+            <div class="d-flex gap-2">
+              <a href="#" class="btn btn-outline-success btn-sm rounded-circle"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="btn btn-outline-success btn-sm rounded-circle"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="btn btn-outline-success btn-sm rounded-circle"><i class="bi bi-tiktok"></i></a>
+              <a href="#" class="btn btn-outline-success btn-sm rounded-circle"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <form class="p-4 rounded-4 shadow-sm bg-white" id="contactForm">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">No. WhatsApp</label>
+                <input type="tel" class="form-control" id="telepon" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Pesan</label>
+                <textarea class="form-control" rows="5" id="pesan" required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-success rounded-pill px-4">
+                  <i class="bi bi-send"></i> Kirim Pesan
+                </button>
+              </div>
+            </div>
+            <div id="formAlert" class="mt-3"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5 class="fw-bold text-success mb-3"><i class="bi bi-cup-hot-fill"></i> Kopi Nusantara</h5>
+          <p class="text-white-50 small">
+            UMKM lokal yang berkomitmen menghadirkan kopi terbaik dari petani Indonesia 
+            untuk pecinta kopi di seluruh nusantara.
+          </p>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="fw-bold mb-3">Navigasi</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#home" class="text-white-50 text-decoration-none">Beranda</a></li>
+            <li><a href="#tentang" class="text-white-50 text-decoration-none">Tentang</a></li>
+            <li><a href="#produk" class="text-white-50 text-decoration-none">Produk</a></li>
+            <li><a href="#kontak" class="text-white-50 text-decoration-none">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="fw-bold mb-3">Produk</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-white-50 text-decoration-none">Kopi Robusta</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Kopi Arabika</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Kopi Luwak</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Cold Brew</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h6 class="fw-bold mb-3">Newsletter</h6>
+          <p class="text-white-50 small">Dapatkan promo & info terbaru dari kami.</p>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Email Anda">
+            <button class="btn btn-success" type="button"><i class="bi bi-send"></i></button>
+          </div>
+        </div>
+      </div>
+      <hr class="border-secondary my-4">
+      <div class="text-center small text-white-50">
+        © <span id="year"></span> Kopi Nusantara. All Rights Reserved. | Dibuat dengan <i class="bi bi-heart-fill text-danger"></i> untuk UMKM Indonesia
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="btn btn-success rounded-circle position-fixed bottom-0 end-0 m-3 d-none">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
